@@ -68,7 +68,7 @@ void ofApp::updateFbo() {
     fbo.begin();
     ofClear(255, 255, 255);
     ofSetColor(color);
-    ofDrawCircle(250, 250, radius);
+    ofDrawCircle(breathOrigin, radius);
     fbo.end();
 
 }
