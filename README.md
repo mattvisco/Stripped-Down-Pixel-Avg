@@ -1,0 +1,1 @@
+# Stripped-Down-Pixel-Avg
