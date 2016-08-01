@@ -132,9 +132,6 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-//    fbo.allocate(width, height, GL_RGBA);
-//    fbo.clear();
-    
     int clampedX = MAX(0,MIN(width,x));
     int clampedY = MAX(0,MIN(height,y));
     breathOrigin = ofPoint(clampedX, clampedY);
